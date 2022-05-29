@@ -31,6 +31,8 @@ function billme()
 
             var JRFH=SF(order.subtotalBox.value*Math.cos(es));
             var JRFV=SF(order.subtotalBox.value*Math.sin(es)-W*0.048-WL);
+			order.JRFV.value=JRFV
+			order.JRFH.value=JRFH
 
 			order.LAWAH.value=LAWAH.toPrecision(3);
 			order.LAWL.value=LAWL.toPrecision(3);
