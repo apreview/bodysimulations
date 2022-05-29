@@ -39,5 +39,7 @@ function billme()
 			document.order.WAH.value=document.order.WAH.value.toPrecision(3)
 			document.order.subtotalBox.value=document.order.subtotalBox.value.toPrecision(3)
             document.order.JRF.value=document.order.JRF.value.toPrecision(3)
+            document.order.JRFH.value=document.order.JRFH.value.toPrecision(3)
+            document.order.JRFV.value=document.order.JRFV.value.toPrecision(3)
 
         }
